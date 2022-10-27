@@ -1,4 +1,13 @@
-baseURL = "http://example.org/"
+baseURL = "http://docs.atashfaraz.de/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Dev Notes"
+theme = "relearn"
+
+[params]
+  alwaysopen = true
+  author = "Keyvan Atashfaraz"
+  description = "This will become a collection of notes how to do programming stuff"
+  disableNextPrev = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
