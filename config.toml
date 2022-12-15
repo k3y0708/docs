@@ -1,13 +1,32 @@
 baseURL = "http://docs.atashfaraz.de/"
+canonifyURLs = true
+relativeURLs = true
 languageCode = "en-us"
-title = "Dev Notes"
+title = "Random Docs"
 theme = "relearn"
 
 [params]
-  alwaysopen = true
-  author = "Keyvan Atashfaraz"
-  description = "This will become a collection of notes how to do programming stuff"
-  disableNextPrev = true
+alwaysopen = true
+author = "Keyvan Atashfaraz"
+description = "This will become a collection of Tutorials and Docs about programming stuff"
+disableNextPrev = true
+themeVariant = ["light", "dark"]
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+[markup.highlight]
+guessSyntax = false
+style = "base16-snazzy"
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "FOLLOWS"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-tags'></i> Tags"
+url = "tags/"
+weight = 40
