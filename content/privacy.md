@@ -1,5 +1,0 @@
-+++
-hidden = true
-+++
-
-{{< matomo-optout >}}
