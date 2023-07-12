@@ -10,8 +10,6 @@ lastModifierEmail = "keyvan@atashfaraz.de"
 
 This is a guide to automatically run scripts at a specific time.
 
-## Cronjob: run scripts at a specific time
-
 You need to run only one command:
 
 ```bash
